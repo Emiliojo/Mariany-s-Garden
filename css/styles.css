@@ -18,8 +18,22 @@ a {
 }
 
 .logo {
-  background-color: #033a35;
-  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #84994e;
+  padding: 0 50px;
+}
+
+.logo__text {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo__image {
+  width: 80px;
+  height: 80px;
 }
 
 .nav {
@@ -31,4 +45,12 @@ a {
 .nav-list {
   display: flex;
   justify-content: space-between;
+  height: 25px;
+}
+
+.nav-list__item {
+}
+
+.nav-list__item:hover {
+  border-bottom: 2px solid #84994e;
 }
