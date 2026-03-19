@@ -1,5 +1,6 @@
 .info-hero {
   display: flex;
+  font-size: 20px;
 }
 
 .info-hero__content {
@@ -48,6 +49,7 @@
   display: flex;
   flex-direction: column;
   width: 600px;
+  font-size: 17px;
 }
 
 .conclusion__title {
