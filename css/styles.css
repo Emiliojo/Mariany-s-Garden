@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  background-color: #f4f3f7;
 }
 
 ul {
@@ -30,6 +31,8 @@ h6 {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   max-width: 1200px;
   margin: 120px auto;
 }
