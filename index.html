@@ -12,6 +12,10 @@
     />
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/home.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/19a7530794.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="header">
@@ -51,16 +55,50 @@
         </div>
       </section>
 
-      <section>
+      <section class="container">
         <h2 class="subtitle">Sobre Nosotros</h2>
-        <div>
-          <div></div>
+        <div class="about-us">
+          <div class="about-us__card">
+            <img src="./images/simbolo_01.svg" alt="" class="about-us__icon" />
+            <h3 class="about-us__subtitle">Quienes Somos</h3>
+            <p>
+              Mariany's Garden surgió de la idea de cómo las plantas pueden
+              servir como seres de compañía y rehabilitación. Nuestras
+              suculentas representan resiliencia y crecimiento, como parte de
+              nuestra filosofía.
+            </p>
+            <div class="about-us__image about-us__image--1"></div>
+          </div>
+
+          <div class="about-us__card">
+            <img src="./images/simbolo_02.svg" alt="" class="about-us__icon" />
+            <h3 class="about-us__subtitle">Nuestro Compromiso</h3>
+            <p>
+              Satisfacer las necesidades en beneficio de nuestra comunidad.
+              Nuestro objetivo es mitigar la crisis de la mediana edad, que
+              puede manifestarse como depresión leve o aislamiento social en
+              adultos de 40-60 años.
+            </p>
+            <div class="about-us__image about-us__image--2"></div>
+          </div>
+
+          <div class="about-us__card">
+            <img src="./images/simbolo_03.svg" alt="" class="about-us__icon" />
+            <h3 class="about-us__subtitle">Plantas Ornamentales</h3>
+            <p>
+              Nuestras plantas suculentas permiten la culminación de logros
+              pequeños pero significativos, lo que permite fomentar un sentido
+              de control, propósito y pertenencia, tanto con uno mismo como con
+              los demás.
+            </p>
+            <div class="about-us__image about-us__image--3"></div>
+          </div>
         </div>
       </section>
 
       <section class="container video">
         <iframe
-          width="1122"
+          width="100%"
           height="630"
           src="https://www.youtube.com/embed/fnccPFtyzgU?si=Uv1XLvGr-KnvYU_T"
           title="YouTube video player"
@@ -80,6 +118,45 @@
       </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__contact">
+        <div class="footer__column">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>Dirección</h3>
+          <p>Psj, C. Mártir José Olaya 129,</p>
+          <p>Miraflores 15075</p>
+        </div>
+
+        <div class="footer__column">
+          <i class="fa-solid fa-phone"></i>
+          <h3>Teléfono</h3>
+          <p>(01) 7012361</p>
+        </div>
+
+        <div class="footer__column">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Email</h3>
+          <p>info@aniaorg.pe</p>
+        </div>
+
+        <div class="footer__column">
+          <a href="https://www.facebook.com/share/1E9VVzcRss/">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <h3>Facebook</h3>
+        </div>
+
+        <div class="footer__column">
+          <a
+            href="https://www.instagram.com/codigo_verde_educacion_activa?igsh=ZmR3MWVxbXQ0NW90"
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <h3>Instagram</h3>
+        </div>
+      </div>
+
+      <div class="footer__social"></div>
+    </footer>
   </body>
 </html>
