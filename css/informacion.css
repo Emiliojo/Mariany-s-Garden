@@ -1,12 +1,13 @@
 .info-hero {
   display: flex;
+  gap: 120px;
+  padding: 80px 120px;
 }
 
 .info-hero__content {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 80px 120px;
 }
 
 .info-hero__description {
