@@ -48,12 +48,13 @@ h6 {
 
 .logo__text {
   color: white;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
+  text-align: center;
 }
 
 .logo__image {
-  width: 80px;
+  width: 90px;
   height: 100%;
 }
 
