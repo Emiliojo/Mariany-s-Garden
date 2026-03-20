@@ -2,12 +2,14 @@
   display: flex;
   gap: 120px;
   padding: 80px 120px;
+  
 }
 
 .info-hero__content {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-size:20px;
 }
 
 .info-hero__description {
@@ -17,6 +19,7 @@
 
 .info-hero__image {
   width: 400px;
+  border-radius: 20px;
 }
 
 .info-bio {
@@ -26,6 +29,7 @@
   align-items: center;
   background-color: #f3eefc;
   padding: 120px 0;
+
 }
 
 .info-bio__container {
@@ -53,13 +57,19 @@
 }
 
 .conclusion__title {
-  font-size: 32px;
+  font-size: 36px;
   text-align: center;
+}
+
+.conclusion__paragraph{
+  font-size: 20px;
+
 }
 
 .conclusion__image {
   border-radius: 20px;
-  width: 80%;
+  width: 90%;
+  
 }
 
 .conclusion__final {
@@ -67,4 +77,14 @@
   padding: 80px 60px;
   margin: 30px 120px;
   border-radius: 20px;
+  font-size: 20px;
+  
+}
+.virtual_section {
+transition: all 0.1s;
+
+}
+.virtual_section:hover {
+  transform: scale(1.1);
+
 }
